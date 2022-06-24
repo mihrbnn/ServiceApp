@@ -1,38 +1,96 @@
-.App {
+
+h4{
+  font-size: 18px;
   text-align: center;
+  font-weight:700;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.progress{
+  height: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  height:50vh
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dropdown-menu {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
+}
+
+.card{
+  background-color: #F8F8F8;
+  border: none;
+}
+.card-img-top {
+  margin-top: 10px;
+  width: 130px;
+  height: auto;
+}
+
+.checkbox{
   display: flex;
-  flex-direction: column;
   align-items: center;
+  background-color: #F8F8F8;
+  height: 45px;
+}
+
+.form-check-input:checked{
+  background-color: #2CB34F;
+}
+
+.card-text{
+  padding-left: 8px;
+  padding-top: 2px;
+  font-size: 14px;
+}
+
+h1{
+  font-size: 50px;
+}
+
+.btn{
+  font-size: 16px;
+  font-weight:700;
+  height: 46px;
+  border: none;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.btn-div{
+  display: flex;
+  height: 50px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.form-control{
+  height: 140px;
+}
+
+.final-page{
+
+background: url(assets/images/confetti-03.png);
+height: 170px;
+display: flex;
+
+}
+
+.col{
+  background-color: #F8F8F8;
+  margin: 10px;
+  padding: 0px;
+
+}
+
+.discount-text{
+  background-color: #111321;
   color: white;
+  font-weight: bold;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
